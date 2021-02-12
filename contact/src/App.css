@@ -2,3 +2,28 @@
   margin: 0;
   padding: 0;
 }
+
+.fullList {
+  background-color: #8EBA4F;
+  height: 30px;
+  width: auto;
+
+}
+
+.contactDetails {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.contactPhoto {
+  background-color: #AFCF80;
+  height: 200px;
+  width: auto;
+}
+
+h2 {
+  color: white;
+  font-size: 20;
+  font-weight: bold;
+}
