@@ -10,7 +10,8 @@ export default function Contact(props) {
             <div className = "fullList"><h2>My Peeps</h2></div>
                 <ul>
                     {contacts.map(contact => <li>
-                        <Link contactId={contact.id}to={`detail/${contact.id}`}>{contact.name.first} {contact.name.last}</Link>
+                        <Link contactId={contact.id}to={`detail/${contact.id}`}>
+                            {contact.name.first} {contact.name.last}</Link>
                     </li>)}
                 </ul>
         </div>

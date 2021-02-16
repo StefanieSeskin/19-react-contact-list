@@ -12,12 +12,13 @@ export default function ContactDetail(props) {
     console.log(activeUser)
   
     return <div className = "contactDetails">
-            <div className = "contactPhoto">{<Link to="/">Back</Link>}</div>
+            <div className = "contactPhoto"><h2>A PHOTO</h2></div>
+        {<Link to="/">Back</Link>}
         {activeUser.name.first} {activeUser.name.last}
         <p>{activeUser.email}</p>
         <p>{activeUser.phone}</p>
         <p>{activeUser.cell}</p>
-        <p>{activeUser.location.city}, {activeUser.location.state}</p>
+        <p></p>{activeUser.location.city}, {activeUser.location.state}
 
     </div>
   }
